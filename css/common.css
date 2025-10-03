@@ -7,14 +7,14 @@ body {
   text-align: center;
 }
 
-.dark{
-  background-color:#000;
-  color: #bbb;
-}
-
 .light{
   background-color:#fff;
   color: #3a3a3a;
+}
+
+.dark{
+  background-color:#000;
+  color: #bbb;
 }
 
 .in_img {
@@ -50,22 +50,6 @@ textarea {
 
 textarea::placeholder {
   color: #909090;
-}
-
-button {
-  display: inline-block;
-  text-decoration: none;
-  padding: 2px 5px;
-  margin: 5px 5px;
-  font-size:12px;
-  background: #e9e9e9;/*ボタン色*/
-  color: #8c8c8c;
-  border-bottom: solid 2px #bfbfbf;
-  border-radius: 5px;
-}
-button:active {
-  /*ボタンを押したとき*/
-  transform: translateY(1px);/*下に動く*/
 }
 
 .fizzbuzz {

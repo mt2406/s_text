@@ -89,7 +89,8 @@ $(window).on('unload', function(e){
 /* theme */
 $(function() {
     $('#theme').click(function() {
-      $('.dark').toggleClass('light');
+      console.log('aa');
+      $('.light').toggleClass('dark');
   });
 });
 
